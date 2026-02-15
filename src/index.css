@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Menggunakan slate-950 (sangat gelap) untuk background */
+  /* dan slate-200 (putih gading) untuk teks utama */
+  @apply bg-slate-950 text-slate-200; 
+}
