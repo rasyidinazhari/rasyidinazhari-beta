@@ -1,6 +1,74 @@
 export const projects = [
   {
     id: 1,
+    title: "Automotive E-commerce Website",
+    desc: "a fullstack platform for the sale of motorbikes and cars based on integrated individual showrooms",
+    longDesc: "This is a long description of how the CNN algorithm works to detect diseases in plant leaves...",
+    tech: ["Vue.js", "Flask", "Tailwind", "Python"],
+    githubLink: "https://github.com/rasyidinazhari",
+    liveLink: "https://abumotor.vercel.app",
+    image: "../assets/abumotor-live.png", // Contoh Image
+    link: "#",
+    status: "MVP",      // Bisa: Development, Completed, Maintenance
+    type: "Web App", // Bisa: Web App, Mobile App, IoT
+    year: "2026",
+    githubLink: "https://github.com/rasyidinazhari",
+    liveLink: "https://abumotor.vercel.app",
+    sections: [
+      {
+        title: "Background",
+        content: "This Management Information System was developed to digitize the operational business processes at Abu Motor, a motorcycle dealership that previously relied heavily on manual record-keeping. Dependence on these conventional methods often triggered risks of data loss, inaccurate vehicle stock monitoring, and inefficiencies in daily and monthly sales recapitulation. This project serves as a strategic solution to transform this workflow into an integrated digital platform, ensuring operational and transactional data is recorded precisely and easily monitored by management."
+      },
+      {
+        title: "Technical Challenges",
+        content: "Developing this system presented its own technical challenges, particularly in ensuring real-time data synchronization between the sales transaction module and inventory management. The main challenge was designing a robust database structure to handle specific tracking per vehicle unit, such as recording engine and chassis numbers, while simultaneously accommodating automatic stock updates when a transaction occurs. Furthermore, summarizing complex operational data into quickly retrievable and easily understandable analytical reports required efficient query optimization to maintain stable system performance."
+      },
+      {
+        title: "System Architecture",
+        content: "Architecturally, this platform was built using a modern web-based application approach that ensures secure data flow from the server side to the user interface. The system relies on a relational database as its storage backbone to manage complex entity relationships, ranging from customer data and transaction history to the availability status of each motorcycle unit. The system design is also modular, separating the core business logic from the user interface, ensuring the application remains responsive and easily scalable for future dealership feature additions."
+      },
+      {
+        title: "Results & Conclusion",
+        content: "The implementation of this system effectively improved Abu Motor's operational efficiency, reduced human error in stock recording, and accelerated the process of generating periodic sales reports. As a standout value-add that highlights comprehensive analysis, the architecture and impact of this system's implementation are also being extracted into a scientific journal article draft. In conclusion, this project not only provided a highly valuable, practical business solution for automotive dealership operations but also produced a validated academic study regarding the effectiveness of management digitization."
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "2D RPG Game with Phaser.js",
+    desc: "A simple 2D RPG game built with Phaser.js...",
+    longDesc: "This is a long description of the 2D RPG game built with Phaser.js...",
+    tech: ["JavaScript", "Phaser.js"],
+    githubLink: "https://github.com/rasyidinazhari",
+    liveLink: "https://rasyidinazhari.my.id/projects",
+    image: "../assets/rpg-2d.png", 
+    link: "#",
+    status: "Deployed",      
+    type: "Web Game", 
+    year: "2026",
+    githubLink: "https://github.com/rasyidinazhari",
+    liveLink: "https://rasyidinazhari.my.id/projects",
+    sections: [
+      {
+        title: "Background",
+        content: "This role-playing game (RPG) was developed as an interactive submission for a competition, specifically designed to showcase the rich cultural and geographical landscape of Surakarta. The primary objective was to gamify the exploration of the city, transforming local heritage and landmarks into an engaging digital experience. By blending educational elements with entertainment, the project aimed to introduce players to Surakarta's unique identity through immersive storytelling, virtual exploration, and interactive gameplay."
+      },
+      {
+        title: "Technical Challenges",
+        content: "Translating a real-world city into a game environment presented significant hurdles, particularly in designing accurate and engaging mapping that felt authentic yet fun to explore. Developing a robust quest logic system was another major challenge, requiring complex state management to track player progress, handle branching NPC dialogues, and trigger specific narrative events without breaking the game loop. Additionally, creating and refining the user interface (UI) enhancements to be intuitive accommodating inventories, mini-maps, and mission logs required continuous iteration to ensure a seamless and distraction-free player experience."
+      },
+      {
+        title: "System Architecture",
+        content: "The game's architecture is built upon a modular, event-driven framework within the game engine, ensuring smooth interactions between the player character and the dynamic environment. The core system is divided into distinct controllers: a quest manager handling mission states and conditions, a spatial mapping system for optimized scene transitions across virtual Surakarta, and a dedicated UI manager rendering real-time on-screen elements. This separation of concerns allows the game to process complex narrative logic and player inputs efficiently without compromising visual rendering performance."
+      },
+      {
+        title: "Results & Conclusion",
+        content: "The final product is a fully functional, culturally immersive RPG that successfully translates the essence of Surakarta into a compelling interactive medium. The meticulous attention to map design, intricate quest programming, and UI enhancements resulted in a polished game ready for competitive exhibition. Ultimately, this project demonstrates a strong command of game development mechanics, user experience design, and highlights the potential of interactive media as an innovative tool for regional promotion."
+      }
+    ]
+  },
+  {
+    id: 3,
     title: "Plant Disease Detection",
     desc: "Plant disease detection application using Computer Vision...",
     longDesc: "This is a long description of how the CNN algorithm works to detect diseases in plant leaves...",
@@ -32,7 +100,8 @@ export const projects = [
         content: "The system successfully detected 3 types of leaf diseases with an accuracy of 85%. However, the drone's flight duration remains a major limitation that needs improvement in the next version."
       }
     ]
-  }
+  },
+  
 ];
 
 // Data Blog/Artikel
@@ -74,11 +143,11 @@ export const blogs = [
 export const experiences = [
   {
     id: 1,
-    role: "Fullstack Engineer",
-    company: "Karsadev",
+    role: "Software & IoT Engineer",
+    company: "Self Employed",
     period: "Feb 2026 — Present",
-    location: "Singapore, Remote",
-    desc: "Building and improving the company's main product, an AI-powered automation platform for small businesses. Responsibilities include developing new features, optimizing performance, and collaborating with cross-functional teams to deliver high-quality software solutions."
+    location: "Indonesia",
+    desc: "Building and improving scalable product, an AI-powered automation platform for small businesses. Responsibilities include developing new features, optimizing performance, and collaborating with cross-functional teams to deliver high-quality software solutions."
   },
   {
     id: 2,

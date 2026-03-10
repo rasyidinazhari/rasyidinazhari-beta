@@ -29,7 +29,7 @@ const Home = () => {
               <span className="text-sm font-medium tracking-wide text-blue-50/90">
                 Crafting Excellence at{" "}
                 <a href="#" className="text-white underline transition-colors hover:text-blue-300 decoration-blue-800 underline-offset-4">
-                  Horus Automation
+                  Karsadev
                 </a>
               </span>
             </div>

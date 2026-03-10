@@ -92,7 +92,7 @@ const About = () => {
                 I was born in 2004 in Surakarta, Indonesia. My journey didn't start with a clear path into Software Engineering. in fact, I didn't even know the term back then. It all began during my Junior High School years when I started tinkering with Blogger templates out of curiosity.
               </p>
               <p className="text-slate-400 leading-relaxed text-lg mt-4">
-                From there, I dove deeper into web development, which eventually led me to university. It was there that I was formally introduced to the world of Software Engineering. 
+                From there, I dove deeper into web development, which eventually led me to university. It was there that I was formally introduced to the world of Software & Hardware Engineering. 
               </p>
               {/* <p className="text-slate-400 leading-relaxed text-lg mt-4">
                 Today, my focus has expanded beyond the browser. I am passionate about exploring the convergence of Web and Mobile development, while diving deeper into the realms of AI and IoT/Embedded systems, always driven by a continuous desire to learn and build.

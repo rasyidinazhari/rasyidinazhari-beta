@@ -128,10 +128,10 @@ const ProjectDetail = () => {
 
                   {/* Action Buttons */}
                   <div className="space-y-3">
-                    <a href={project.githubLink} className="flex items-center justify-center gap-2 w-full py-2.5 bg-neutral-800 hover:bg-neutral-700 text-slate-200 text-sm font-medium rounded-lg transition border border-neutral-700">
+                    <a href={project.githubLink} className="flex items-center justify-center gap-2 w-full py-2.5 bg-neutral-800 hover:bg-neutral-700 text-slate-200 text-sm font-medium rounded-lg transition border border-neutral-700" target="_blank">
                       <Github size={16} /> Repository
                     </a>
-                    <a href={project.liveLink} className="flex items-center justify-center gap-2 w-full py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium rounded-lg transition shadow-lg shadow-blue-500/20">
+                    <a href={project.liveLink} className="flex items-center justify-center gap-2 w-full py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium rounded-lg transition shadow-lg shadow-blue-500/20" target="_blank">
                       <ExternalLink size={16} /> Live Demo
                     </a>
                   </div>
